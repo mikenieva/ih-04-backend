@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 	res.send("Hola mundo")
 })
 
-router.get("/contacto", () => {
+router.get("/contacto", (req, res) => {
 	res.send("Contacto")
 })
 

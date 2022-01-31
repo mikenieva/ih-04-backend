@@ -8,9 +8,11 @@ const router		= express.Router()
 
 // 2. RUTEO
 router.get("/", (req, res) => {
-
 	res.send("Hola mundo")
+})
 
+router.get("/contacto", () => {
+	res.send("Contacto")
 })
 
 

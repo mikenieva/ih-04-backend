@@ -4,3 +4,4 @@ node_modules/
 
 # ARCHIVOS IGNORADOS
 package-lock.json
+.env
